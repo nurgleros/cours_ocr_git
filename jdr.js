@@ -3,7 +3,7 @@ Mini-jeu de rôle
 */
 
 var perso = {
-    nom: "Aurora",
+    nom: "Aurore",
     sante: 150,
     force: 25,
     xp: 10,
