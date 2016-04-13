@@ -1,0 +1,119 @@
+@font-face 
+{
+    font-family: 'LearningCurveProRegular';
+    src: url('police/LearningCurve_OT-webfont.eot');
+    src: url('police/LearningCurve_OT-webfont.eot?#iefix') format('embedded-opentype'),
+         url('police/LearningCurve_OT-webfont.woff') format('woff'),
+         url('police/LearningCurve_OT-webfont.ttf') format('truetype'),
+         url('police/LearningCurve_OT-webfont.svg#LearningCurveProRegular') format('svg');
+}
+
+.photo_cv
+{
+	float:right;
+	box-shadow: 10px 10px 10px #666;
+}
+
+.citation
+{
+	text-align:center;
+}
+
+h1
+{
+	text-align:center;	
+}
+
+h2
+{
+	color:#A49144;
+	font-family: 'LearningCurveProRegular';
+	font-size: 36px;
+}
+
+body
+{
+	background:url(images/goutte.jpeg)  repeat;
+}
+header
+{
+	display:inline-block;
+	/**border:#0066FF solid 1px;**/
+	vertical-align: top;
+	margin: 0px;
+	position: absolute;
+	top:0%;
+	left:10%;
+	width:90%;
+	padding:0%;
+}
+nav
+{
+	display:inline-block;
+	background-color:#2d6689;
+	/**border:#0066FF solid 1px;**/
+	width: 10%;
+	height: 800px;
+	vertical-align:top;
+	margin: 0px;
+	border-radius: 20px;
+	position: absolute;
+	left: 0%;
+	top: 0%;
+	padding:0%;
+}
+section
+{
+	display:inline-block;
+	/**border: 1px solid #00F;**/
+	vertical-align:top;
+	width: 30%;
+	margin: 0%;
+	padding:0%;
+}
+#experience
+{
+	position:absolute;
+	top:20%;
+	left:15%;
+}
+#competences
+{
+	position:absolute;
+	top:20%;
+	left:45%;
+}
+#formation
+{
+	position:absolute;
+	top:20%;
+	left:75%;
+}
+@media all and (max-width: 900px)
+{
+	nav
+	{
+		display:none;
+	}
+	#experience
+	{
+		position:absolute;
+		top:20%;
+		left:5%;
+		width:auto;
+	}
+	#competences
+	{
+		position:absolute;
+		top:40%;
+		left:5%;
+		width:auto;
+	}
+	#formation
+	{
+		position:absolute;
+		top:60%;
+		left:5%;
+		width:auto;
+	}
+}
